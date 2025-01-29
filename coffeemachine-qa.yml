@@ -1,0 +1,35 @@
+# Conversion to YAML from Properties formar report
+# Warnings:
+# - The yaml file had comments which are lost in the refactoring!
+spring:
+  application:
+    name: coffeemachine
+
+
+build:
+  version: "2.0"
+
+account:
+  message: "Bienvenue sur l'application Café QA"
+  details:
+    name: "Iznogoud QA"
+    email: "test@iznogoud.fr"
+  phone:
+  - 0608050308
+  - 09070605
+  - 0820020222
+
+# management:
+# endpoints:
+#     web:
+#      exposure:
+#         include: '*'
+# logging:
+#   level:
+#     org:
+#       formation:
+#         controller:
+#           CoffeeController: error
+# greeting:
+#   name: Dakota
+#   coffee: ${greeting.name} is drinking Cafe Cereza

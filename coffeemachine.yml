@@ -1,0 +1,38 @@
+# Conversion to YAML from Properties formar report
+# Warnings:
+# - The yaml file had comments which are lost in the refactoring!
+spring:
+  application:
+    name: coffeemachine
+# Interdiction d'acitvation de profile ici pcq recopie depuis l'application pour le 'mauvais' exemple
+#  profiles:
+#    active:
+#    - 'prod'
+
+build:
+  version: "3.0"
+
+account:
+  message: "Bienvenue sur l'application Café App"
+  details:
+    name: "Test Fredo 3.0"
+    email: "test@toto.fr"
+  phone:
+  - 0602530104
+  - 09070605
+  - 0820020222
+
+# management:
+# endpoints:
+#     web:
+#      exposure:
+#         include: '*'
+# logging:
+#   level:
+#     org:
+#       formation:
+#         controller:
+#           CoffeeController: error
+# greeting:
+#   name: Dakota
+#   coffee: ${greeting.name} is drinking Cafe Cereza
