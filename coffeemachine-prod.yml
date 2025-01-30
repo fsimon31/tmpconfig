@@ -25,6 +25,7 @@ account:
   details:
     name: "Bob Prod"
     email: "test@prod.fr"
+    # email: '{cipher}196b1e6a9d721accc7f971246df5252d8f1f551b5ff80b4d5dd541c60df6aaa2'
   phone:
   - 0602530852
   - 09070605
